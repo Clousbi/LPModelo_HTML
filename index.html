@@ -4,56 +4,62 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600&family=Raleway:ital,wght@0,300;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
    
   <title>Principal Page</title>
 </head>
 <body>
-    <header>
-        <div class="navegador">
-            <div class="main-logo">GoLoLoGo</div>
-            <nav>
-                <ul class="menu">
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Categorias</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#"><span class="carrinho"></span></a></li>
-                    <li><a href="#"><span class="pesquisa"></span></a></li>
-                </ul>
-            </nav>
-        </div>
+    <header class="cabecalho">
+        <img src="img/LOGO.png" class="logo">
+        <nav class="cabecalho-menu">
+            <a class="menu-item" href="#">Ancora 1</a>
+            <a class="menu-item" href="#">Ancora 2</a>
+            <a class="menu-item" href="#">Ancora 3</a>
+            <a class="menu-item" href="#">Ancora 4</a>
+        </nav>
     </header>
 
-    <main>
-        <div class="slide-conjunto">
-            <input type="radio" id="slide1" class="sec-1-input" name="slide" checked>
-            <input type="radio" id="slide2" class="sec-1-input" name="slide">
-            <input type="radio" id="slide3" class="sec-1-input" name="slide">
-            <div class="slides">
-                <div id="top-slide-1" class="slide">
-                    <div class="linha"></div>
-                    <div class="learn-more-button"><a href="#">Leia Mais</a></div>
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <div class="principal">
+                <h1 class="principal-titulo">Titulo Principal</h1>
+                <h2 class="principal-subtitulo">Subtitulo : Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium earum </h2>
+                <button class="principal-botao"></button>Clique aqui</button>
 
-                </div>
-                <div id="top-slide-2" class="slide">
-                    <div class="linha"></div>
-                    <div class="learn-more-button"><a href="#">Leia Mais</a></div>
-
-                </div>
-                <div id="top-slide-3" class="slide">
-                    <div class="linha"></div>
-                    <div class="learn-more-button"><a href="#">Leia Mais</a></div>
-
-                </div>
             </div>
-            <div class="controles">
-                <label for="banner1"><span class="progressobar"><span class="progressobar-fill"></span></span><span>01</span> Sobre</label>
-                <label for="banner2"><span class="progressobar"><span class="progressobar-fill"></span></span><span>02</span> Serviços</label>
-                <label for="banner3"><span class="progressobar"><span class="progressobar-fill"></span></span><span>03</span> Contato</label>
-            </div>
-        </div>
+            <img src="img/IMAGEM.png" class="imagem1">
 
+        </section>
+        <section class="conteudo-secundario">
+            <h3 class="secundario-titulo">Titulo</h3>
+            <p class="secundario-paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste iusto repudiandae laudantium culpa ad reiciendis dolorum eligendi explicabo atque! Ullam odio et est quisquam sequi quidem ab inventore nam! Eos?</p>
+
+            <h3 class="secundario-titulo">Titulo</h3>
+            <ol class="secundario-lista">
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Dicta quas impedit atque minima nihil esse repellendus error quod commodi adipisci nemo, quis nam?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ol>
+        </section>
     </main>
+    
+    <footer>
+        <section>
+            <div>
+                <p>Sobre</p>
+
+            </div>
+            <div>
+                <p>Contatos</p>
+
+            </div>
+
+        </section>
+
+    </footer>
     
 </body>
 </html>

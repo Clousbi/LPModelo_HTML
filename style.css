@@ -1,0 +1,42 @@
+body{
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #a5a5a5 16.62%, #7a7a7a 85.61%);}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;}
+
+/*Cabeçalho*/
+
+.logo{
+    max-width: 100px;
+    border-radius: 50%;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5rem;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+.menu-item{
+   color: #e7e7e7; 
+   font-weight: 500;
+   font-size: 18px;
+}
+
+/*Main*/
+.conteudo{
+    border-top: 0.4px solid #e7e7e7 ;
+}
+.imagem1{
+    max-width: 300px;
+}
+
