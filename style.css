@@ -29,14 +29,143 @@ body{
 .menu-item{
    color: #e7e7e7; 
    font-weight: 500;
-   font-size: 18px;
+   font-size: 18px; 
+   transition: all 0.3s;
+}
+.menu-item:hover{
+    color: #ac1515;
 }
 
 /*Main*/
 .conteudo{
+    margin-bottom: 48px;
     border-top: 0.4px solid #e7e7e7 ;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.principal-titulo{
+    font-size: 64px;
+    font-weight: 700;
+    color:#e7e7e7;
+}
+.principal-subtitulo{
+    font-size: 24px;
+    font-weight: 400;
+    color:#cfcfcf;
+}
+.principal-botao{
+    background-color: #e7e7e7;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 20px;
+    width: 180px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    color:#a5a5a5;
+    transition: all 0.3s;
+}
+.principal-botao:hover{
+    background-color: #ac1515;
+    color: #e7e7e7;
 }
 .imagem1{
     max-width: 300px;
+    margin-top: 1.5rem;
 }
 
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    
+}
+.secundario-titulo{
+    border-top: 0.4px solid #cecece;
+    padding-top: 48px;
+    font-size: 30px;
+    font-weight: 700;
+    color:#cfcfcf;
+}
+.secundario-paragrafo{
+    margin: 40px;
+    color:#e7e7e7;
+    font-size: 20px;
+    font-weight: 400;
+}
+.secundario-titulo2{
+    padding-top: 48px;
+    font-size: 30px;
+    font-weight: 700;
+    color:#cfcfcf;
+}
+.secundario-lista{  
+    color:#e7e7e7;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.lista-item{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+
+/*Footer*/
+.rodape{
+    border-top: 0.4px solid #e7e7e7 ;
+    margin: 20px;
+}
+.rodape-conteudo{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    
+}
+.rodape-titulo{
+    padding-top: 48px;
+    font-size: 30px;
+    font-weight: 700;
+    color:#cfcfcf;  
+}
+.rodape-paragrafo{
+    margin: 10px;
+    margin-left: 10px;
+    text-align: justify;
+    color: #2b2b2b;
+}
+.rodape-lista{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.lista-item2{
+    display: flex;
+    padding-top: 1.5rem;
+    transition: all 0.3s;
+    font-weight: 700;
+    color: #e7e7e7;
+    align-items: center;
+}
+.lista-item2:hover{
+    color: #ac1515;
+}
+.logo2{
+    max-width: 30px;
+    border-radius: 50%;
+    
+}
