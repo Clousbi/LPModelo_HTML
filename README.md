@@ -42,7 +42,7 @@ O projeto é um modelo simples de landing page com HTML5 e CSS3, com 3 divisões
 
 ## 📁 Acesso ao projeto
 
-Você pode acessar o código na pasta [Código](https://github.com/Clousbi/LandingPage/blob/main/LICENSE). 
+Você pode acessar o código na pasta [Código](https://github.com/Clousbi/LandingPage/tree/main/c%C3%B3digo). 
 
 ## :white_check_mark: Tecnologias Utilizadas
 * HTML5;
