@@ -1,5 +1,5 @@
 # 🔵Landing Page Modelo🔵
-![Imagem de Capa](img/CAPA.png)
+![Imagem de Capa](c%C3%B3digo/img/CAPA.png)
 
 
 
@@ -42,11 +42,7 @@ O projeto é um modelo simples de landing page com HTML5 e CSS3, com 3 divisões
 
 ## 📁 Acesso ao projeto
 
-**Indique como é possível baixar ou acessar o código fonte do projeto, seja projeto inicial ou final**
-
-## 🛠️ Abrir e rodar o projeto
-
-**Apresente as instruções necessárias para abrir e executar o projeto**
+Você pode acessar o código na pasta [Código](https://github.com/Clousbi/LandingPage/blob/main/LICENSE). 
 
 ## :white_check_mark: Tecnologias Utilizadas
 * HTML5;
